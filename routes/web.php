@@ -12,7 +12,7 @@
 */
 
 Route::get('/','PagesController@home');
-Route::get('/','PagesController@about');
-Route::get('/','PagesController@media');
-Route::get('/','PagesController@resources');
-Route::get('/','PagesController@connect');
+Route::get('/about','PagesController@about');
+Route::get('/media','PagesController@media');
+Route::get('/resources','PagesController@resources');
+Route::get('/connect','PagesController@connect');
