@@ -10,7 +10,7 @@
       <p>
         {{$post->body}}
       </p>
-      <a href="{{$post->slug}}">Read more</a>
+      <a href="/posts/{{$post->slug}}">Read more</a>
     </article>
   @endforeach
 @stop
