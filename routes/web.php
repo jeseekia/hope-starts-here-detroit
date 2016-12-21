@@ -16,5 +16,6 @@ Route::get('/about','PagesController@about');
 Route::get('/media','PagesController@media');
 Route::get('/resources','PagesController@resources');
 Route::get('/connect','PagesController@connect');
+Route::get('/board', 'PagesController@board');
 
 //Route::get('posts', )

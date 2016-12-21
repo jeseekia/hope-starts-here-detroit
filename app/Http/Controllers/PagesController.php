@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class PagesController extends Controller
 {
-  
+
     public function about(){
       return view('about');
     }
@@ -21,5 +21,9 @@ class PagesController extends Controller
 
     public function connect(){
       return view('connect');
+    }
+
+    public function board(){
+      return view('board');
     }
 }
