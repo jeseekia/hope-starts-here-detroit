@@ -9,8 +9,8 @@ class PostsController extends Controller
 {
     public function home(){
 
-      $posts = Post::all();
-      //print_r($posts);
+      //$posts = Post::all();
+      $posts = Post::where('draft','=',0)->get();
 
       return view('home', compact('posts'));
     }
