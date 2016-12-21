@@ -21,9 +21,9 @@
         <nav>
           <ul>
             <li><a href="/about">About</a></li>
-            <li><a href="/media">About</a></li>
-            <li><a href="/resources">About</a></li>
-            <li><a href="/connect">About</a></li>
+            <li><a href="/media">Media</a></li>
+            <li><a href="/resources">Resources</a></li>
+            <li><a href="/connect">Connect</a></li>
           </ul>
         </nav>
 
