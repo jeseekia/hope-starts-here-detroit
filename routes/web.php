@@ -12,6 +12,10 @@
 */
 
 Route::get('/','PostsController@home');
+//Route::get('posts/{post}', 'PostsController@show');
+Route::get('/posts/{slug}',['as'=>'post-show',
+                             'uses' => 'PostsController@show'  ]);
+
 Route::get('/about','PagesController@about');
 Route::get('/media','PagesController@media');
 Route::get('/resources','PagesController@resources');

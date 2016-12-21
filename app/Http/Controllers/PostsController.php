@@ -15,8 +15,11 @@ class PostsController extends Controller
       return view('home', compact('posts'));
     }
 
-    public function show(){
+    public function show($slug){
 
-      
+      $post = Post::where('slug', '=', $slug)->firstOrFail();
+      return view('posts.show',compact('post'));
     }
+
+
 }
