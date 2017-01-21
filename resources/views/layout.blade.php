@@ -10,29 +10,44 @@
         <!-- Fonts -->
 
         <!-- Styles -->
+        <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="/css/app.css" media="screen" title="no title" charset="utf-8">
 
     </head>
     <body>
-        <header>
-          <a href="/">
-            <img src="#" alt="Hope Starts Here Detroit logo" />
-          </a>
-        </header>
-        <nav>
-          <ul>
-            <li><a href="/about">About</a></li>
-            <li><a href="/media">Media</a></li>
-            <li><a href="/resources">Resources</a></li>
-            <li><a href="/connect">Connect</a></li>
-          </ul>
-        </nav>
 
-        @yield('content')
+        <header class="jumbotron">
+
+        </header>
+
+        <div class="container">
+          <a class="logo-a" href="/">
+            <img class="logo" src="/images/hsh-logo.png" alt="Hope Starts Here Detroit logo" />
+          </a>
+          <nav>
+            <!-- <ul class="nav nav-pills">
+              <li role="presentation" class="active"><a href="#">Home</a></li>
+              <li role="presentation"><a href="#">Profile</a></li>
+              <li role="presentation"><a href="#">Messages</a></li>
+            </ul> -->
+            <ul class="nav nav-pills nav-justified">
+              <li role="presentation"><a href="/about">About</a></li>
+              <li role="presentation"><a href="/media">Media</a></li>
+              <li role="presentation"><a href="/resources">Resources</a></li>
+              <li role="presentation"><a href="/connect">Connect</a></li>
+            </ul>
+          </nav>
+
+          @yield('content')
+        </div>
 
         <footer>
           <p>
             Copyright © 2016 Hope Starts Here: Detroit's Early Childhood Partnership
           </p>
         </footer>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="/bootstrap/js/bootstrap.min.js" charset="utf-8"></script>
     </body>
 </html>
