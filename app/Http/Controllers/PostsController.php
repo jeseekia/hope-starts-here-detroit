@@ -21,5 +21,15 @@ class PostsController extends Controller
       return view('posts.show',compact('post'));
     }
 
+    public function postSend(){
 
+      //$posts = Post::all();
+      //$posts = Post::where('draft','=',0)->get();
+
+      return view('posts.send');
+    }
+
+    public function store(Request $request){
+      return $request->all();
+    }
 }
