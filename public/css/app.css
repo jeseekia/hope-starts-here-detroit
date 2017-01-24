@@ -31,15 +31,22 @@ nav {
   margin: 5px;
 }
 
-.logo {
+.logo-a {
   position: relative;
-  left: 500px;
-  right: auto;
   top: -100px;
   height: 150px;
+  width: 150px;
   border-radius: 50%;
   background-color: #eee;
+  margin: 0 auto;
+  display: block;
+}
 
+.logo {
+  width: 100px;
+  margin: 0 auto;
+  display: block;
+  padding:10px;
 }
 
 footer {
