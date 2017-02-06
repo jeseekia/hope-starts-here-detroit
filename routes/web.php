@@ -18,6 +18,9 @@ Route::get('/posts/{slug}',['as'=>'post-show',
 Route::get('/post-send', 'PostsController@postSend');
 Route::post('/posts','PostsController@store');
 
+Route::resource('posts', 'PostController');
+
+
 Route::get('/about','PagesController@about');
 Route::get('/media','PagesController@media');
 Route::get('/resources','PagesController@resources');
