@@ -15,10 +15,11 @@ Route::get('/','PostsController@home');
 //Route::get('posts/{post}', 'PostsController@show');
 Route::get('/posts/{slug}',['as'=>'post-show',
                              'uses' => 'PostsController@show'  ]);
-Route::get('/post-send', 'PostsController@postSend');
+Route::get('/posts', 'PostsController@postSend');
 Route::post('/posts','PostsController@store');
 
-Route::resource('posts', 'PostController');
+
+//Route::resource('posts', 'PostController');
 
 
 Route::get('/about','PagesController@about');

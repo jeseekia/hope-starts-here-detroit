@@ -4,6 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Post;
 use Illuminate\Http\Request;
+//use Request;
+use Image;
+
 
 class PostsController extends Controller
 {
@@ -29,7 +32,30 @@ class PostsController extends Controller
       return view('posts.send');
     }
 
+    // public function __construct(Request $request) {
+    //     $this->request = $request;
+    // }
+
     public function store(Request $request){
-      return $request->all();
+      //return $request->all();
+      $post = new Post;
+      $post->title = $request->title;
+      $post->subtitle = $request->subtitle;
+      $post->slug = $request->slug;
+      $post->body = $request->body;
+      $post->draft = $request->draft;
+
+      if($request->hasFile("thumbnail")){
+        $file = $request->file("thumbnail");
+        $filename = time(). '.' . $file->getClientOriginalExtension();
+        $location = public_path('post-images/' . $filename);
+        Image::make($file)->resize(800, 400)->save($location);
+
+        $post->thumbnail = $filename;
+
+      }
+      //Post::create($request->all());
+      $post -> save();
+      return back();
     }
 }
