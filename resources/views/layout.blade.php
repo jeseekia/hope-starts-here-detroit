@@ -17,7 +17,21 @@
     <body>
 
         <header class="jumbotron">
-
+          <div id="follow-flag">
+                        <p class="follow-flag-text">
+                            f<br/>
+                            o<br/>
+                            l<br/>
+                            l<br/>
+                            o<br/>
+                            w<br/>
+                            <br/>
+                            u<br/>
+                            s<br/>
+                            !
+                        </p>
+                        <a href="https://www.facebook.com/HopeStartsHereDetroit/?fref=ts" target="_blank"><img src="http://static.tumblr.com/jy33kqh/Omqogezyr/fb-f-logo__white_29.png"/></a>
+                    </div>
         </header>
 
         <div class="container">
