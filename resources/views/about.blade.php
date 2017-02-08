@@ -46,7 +46,7 @@
       Contact
     </h3>
     <p>
-      Please contact info@hopestartsheredetroit.org for more information.
+      Please contact <a href="mailto:info@hopestartsheredetroit.org">info@hopestartsheredetroit.org</a> for more information.
     </p>
 
   </div>
