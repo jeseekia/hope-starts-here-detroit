@@ -6,7 +6,7 @@
   <div class="panel panel-default">
     <div class="panel-body">
       <article>
-        <img src="{{$post->thumbnail}}" alt="" />
+        <img src="/post-images/{{$post->thumbnail}}" alt="" />
         <h2>{{$post->title}}</h2>
         <h3>{{$post->subtitle}}</h3>
         <p>
