@@ -3,7 +3,7 @@
 @section('content')
 <div class="panel panel-default">
   <div class="panel-body">
-    <h2>About Hope Starts Here</h2>
+    <h2 class="title">About Hope Starts Here</h2>
     <p>
       Hope Starts Here: Detroit’s Early Childhood Partnership is a community engagement and strategic planning process designed to create a vision and action plan to make Detroit a world-class city for our youngest residents and their families. Over the next few months, Hope Starts Here will listen to parents, business leaders, child education and health experts and many others to ensure children are born healthy, are prepared for kindergarten, and are on track for success by third grade and beyond.
     </p>
