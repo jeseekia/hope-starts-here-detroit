@@ -65,9 +65,15 @@ nav {
 }*/
 
 footer {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0;
   height: 20px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+footer p {
+  text-align: center;
 }
 
 img {
@@ -103,4 +109,25 @@ img {
     position: absolute;
     left: 7px;
     bottom: 7px;
+}
+
+.panel-body {
+    position: relative;
+}
+.title {
+    background-color: #54BBC0;
+    color: #fff;
+    position: absolute;
+    left: 0px;
+    top: 20px;
+    padding: 1px 20px;
+    width: 75%;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+article.post-content {
+  margin-top: 20%;
+}
+#page .body-text {
+    margin-top: 20%;
 }
