@@ -21,6 +21,10 @@ header {
   margin-right: auto;
 }
 
+#show.panel {
+  width: 85%;
+}
+
 nav {
   margin-top: -80px;
   margin-bottom: 30px;
@@ -49,8 +53,24 @@ nav {
   padding:10px;
 }
 
+/*.post-wrapper {
+    background: #fff;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    background-clip: padding-box;
+    border: 1px solid #eee;
+    border: 1px solid rgba(0,0,0,.08);
+}*/
+
 footer {
   position: absolute;
   bottom: 0;
   height: 20px;
+}
+
+img {
+  max-width: 100%;
+  overflow: hidden;
 }
