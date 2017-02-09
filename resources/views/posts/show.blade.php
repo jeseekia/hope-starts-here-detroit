@@ -3,7 +3,13 @@
 @section('content')
 <div class="panel panel-default post" id="show page">
   <div class="panel-body">
-    <article class="post-content">
+
+    @if(strlen($post->title)>0 || strlen($post->subtitle)>0)
+      <article class="post-content">
+    @else
+      <article>
+    @endif
+    
       @if(strlen($post->thumbnail)<=6)
 
       @elseif($post->thumbnail)
