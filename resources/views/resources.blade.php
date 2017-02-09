@@ -5,7 +5,7 @@
   <div class="panel-body">
     <h2 class="title">Resources</h2>
     <div class="page-content-wrapper">
-      <p>Placeholder</p>
+      <p>CHECK BACK SOON FOR RESOURCES!</p>
     </div>
   </div>
 </div>
