@@ -150,6 +150,10 @@ article.post-content {
 
 }
 
+.post-content img {
+  margin-top:25%;
+}
+
 
 @media (max-width: 1200px) {
 
