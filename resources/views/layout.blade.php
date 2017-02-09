@@ -45,10 +45,10 @@
               <li role="presentation"><a href="#">Messages</a></li>
             </ul> -->
             <ul class="nav nav-pills nav-justified">
-              <li role="presentation"><a href="/about">About</a></li>
-              <li role="presentation"><a href="/media">Media</a></li>
-              <li role="presentation"><a href="/resources">Resources</a></li>
-              <li role="presentation"><a href="/connect">Connect</a></li>
+              <li role="presentation"><a href="/about">ABOUT</a></li>
+              <li role="presentation"><a href="/media">MEDIA</a></li>
+              <li role="presentation"><a href="/resources">RESOURCES</a></li>
+              <li role="presentation"><a href="/connect">CONNECT</a></li>
             </ul>
           </nav>
 
