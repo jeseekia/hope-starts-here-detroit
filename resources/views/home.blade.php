@@ -20,8 +20,13 @@
         @else
           <p>test 2</p>
         @endif
+        @if(strlen($post->title)>1)
         <h2 class="title">{{$post->title}}</h2>
+        @endif
+
+        @if(strlen($post->subtitle)>1)
         <h3>{{$post->subtitle}}</h3>
+        @endif
         <p>
           {!!$post->body!!}
         </p>
