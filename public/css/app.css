@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Museo";
+  src: url("../fonts/MuseoSans-500.otf");
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Museo";
+}
+
 body {
     background-color: #eee;
     position: relative;
@@ -33,6 +42,10 @@ nav {
 .nav li a{
   background-color: #fdd900;
   margin: 5px;
+  font-family: "Museo";
+  text-transform: capitalize;
+  color: black;
+  font-size: 140%;
 }
 
 .logo-a {
@@ -134,5 +147,95 @@ article.post-content {
 
 .page-content-wrapper {
     margin-top: 20%;
+
+}
+
+
+@media (max-width: 1200px) {
+
+  article.post-content {
+    margin-top: 25%;
+  }
+  #page .body-text {
+      margin-top: 25%;
+  }
+
+  .page-content-wrapper {
+      margin-top: 25%;
+
+  }
+
+}
+
+
+@media (max-width: 1000px) {
+
+  article.post-content {
+    margin-top: 30%;
+  }
+  #page .body-text {
+      margin-top: 30%;
+  }
+
+  .page-content-wrapper {
+      margin-top: 30%;
+
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  article.post-content {
+    margin-top: 35%;
+  }
+  #page .body-text {
+      margin-top: 35%;
+  }
+
+  .page-content-wrapper {
+      margin-top: 35%;
+
+  }
+
+}
+
+@media (max-width: 700px) {
+
+  h2 {
+    font-size: 20px;
+  }
+
+  article.post-content {
+    margin-top: 40%;
+  }
+  #page .body-text {
+      margin-top: 40%;
+  }
+
+  .page-content-wrapper {
+      margin-top: 40%;
+
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  h2 {
+    font-size: 20px;
+  }
+
+  article.post-content {
+    margin-top: 125px;
+  }
+  #page .body-text {
+      margin-top: 125px;
+  }
+
+  .page-content-wrapper {
+      margin-top: 125px;
+
+  }
 
 }
