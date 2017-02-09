@@ -49,7 +49,7 @@ class PostsController extends Controller
         $file = $request->file("thumbnail");
         $filename = time(). '.' . $file->getClientOriginalExtension();
         $location = public_path('post-images/' . $filename);
-        Image::make($file)->resize(800, 400)->save($location);
+        Image::make($file)->save($location);
 
         $post->thumbnail = $filename;
 
