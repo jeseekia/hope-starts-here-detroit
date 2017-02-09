@@ -12,6 +12,12 @@
         <!-- Styles -->
         <link rel="stylesheet" href="/bootstrap/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
         <link rel="stylesheet" href="/css/app.css" media="screen" title="no title" charset="utf-8">
+        <script src="//cdn.tinymce.com/4/tinymce.min.js" charset="utf-8"></script>
+        <script type="text/javascript">
+          tinymce.init({
+            selector: 'textarea'
+          });
+        </script>
 
     </head>
     <body>
