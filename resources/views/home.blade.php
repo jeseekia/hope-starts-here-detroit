@@ -2,7 +2,7 @@
 
 @section('content')
 
-  @foreach ($posts as $post)
+  @foreach ($posts->reverse() as $post)
   <div class="panel panel-default post" id="show page">
     <div class="panel-body">
       <article class="post-content">
