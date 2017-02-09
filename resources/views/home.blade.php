@@ -23,7 +23,7 @@
         <h2 class="title">{{$post->title}}</h2>
         <h3>{{$post->subtitle}}</h3>
         <p>
-          {{$post->body}}
+          {!!$post->body!!}
         </p>
         <a href="/posts/{{$post->slug}}">Read more</a>
       </article>
