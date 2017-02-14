@@ -29,3 +29,8 @@ Route::get('/connect','PagesController@connect');
 Route::get('/board', 'PagesController@board');
 
 //Route::get('posts', )
+
+Auth::routes(); //Register routes for authentication
+
+//Route::get('/home', 'HomeController@index'); //route was created by make:auth
+Route::get('/home', 'PostsController@home');
