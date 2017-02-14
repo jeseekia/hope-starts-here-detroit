@@ -114,11 +114,6 @@
             <img class="logo" src="/images/hsh-logo.png" alt="Hope Starts Here Detroit logo" />
           </a>
           <nav>
-            <!-- <ul class="nav nav-pills">
-              <li role="presentation" class="active"><a href="#">Home</a></li>
-              <li role="presentation"><a href="#">Profile</a></li>
-              <li role="presentation"><a href="#">Messages</a></li>
-            </ul> -->
             <ul class="nav nav-pills nav-justified">
               <li role="presentation"><a href="/about">ABOUT</a></li>
               <li role="presentation"><a href="/media">MEDIA</a></li>
