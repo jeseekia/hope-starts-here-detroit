@@ -48,6 +48,11 @@ nav {
   font-size: 140%;
 }
 
+#login-nav {
+  margin:0;
+  top: 0px;
+}
+
 .logo-a {
   position: relative;
   top: -100px;
@@ -110,7 +115,7 @@ img {
     left: 5%;
     width: 43px;
     height: 190px;
-    z-index: 99;
+    z-index: 1000;
 }
 #follow-flag .follow-flag-text {
     margin-top: 5px;
