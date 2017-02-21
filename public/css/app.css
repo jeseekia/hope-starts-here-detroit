@@ -58,6 +58,11 @@ nav {
   color: black;
   font-size: 140%;
 }
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #54BBC0;
+}
 
 #login-nav {
   margin:0;
