@@ -1,7 +1,15 @@
 @extends('layout')
 
 @section('content')
-
+<div id="the-latest" class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <hr>
+      <h1>
+        The Latest from Hope Starts Here!
+      </h1>
+    <hr>
+  </div>
+</div>
   @foreach ($posts->reverse() as $post)
   <div class="panel panel-default post" id="show page">
     <div class="panel-body">
