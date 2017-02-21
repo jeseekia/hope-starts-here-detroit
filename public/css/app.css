@@ -1,10 +1,19 @@
 @font-face {
-  font-family: "Museo";
+  font-family: "Museo Sans";
   src: url("../fonts/MuseoSans-500.otf");
 }
 
+@font-face {
+  font-family: "Museo Slab";
+  src: url("../fonts/MuseoSlab-500.otf");
+}
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Museo";
+  font-family: "Museo Sans";
+}
+
+#the-latest h1{
+  font-family: "Museo Slab";
 }
 
 body {
@@ -53,7 +62,7 @@ nav {
 .nav li a{
   /*background-color: #fdd900;*/
   margin: 5px;
-  font-family: "Museo";
+  font-family: "Museo Slab";
   text-transform: capitalize;
   color: black;
   font-size: 140%;
