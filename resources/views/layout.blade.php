@@ -38,7 +38,7 @@
               </a> -->
               <nav>
                 <ul class="nav nav-pills nav-justified">
-                  <li role="presentation"><a href="/about">HOME</a></li>
+                  <li role="presentation"><a href="/home">HOME</a></li>
                   <li role="presentation"><a href="/about">ABOUT</a></li>
                   <li role="presentation"><a href="/media">MEDIA</a></li>
                   <li role="presentation"><a href="/resources">RESOURCES</a></li>
