@@ -31,12 +31,13 @@
             <div id="follow-flag">
                 <a href="https://www.facebook.com/HopeStartsHereDetroit/?fref=ts" target="_blank"><img src="images/fb_side_of_page.jpg"/></a>
             </div>
-
+<!-- 
               <a class="logo-a" href="/">
                 <img class="logo" src="/images/hsh-logo.png" alt="Hope Starts Here Detroit logo" />
-              </a>
+              </a> -->
               <nav>
                 <ul class="nav nav-pills nav-justified">
+                  <li role="presentation"><a href="/about">HOME</a></li>
                   <li role="presentation"><a href="/about">ABOUT</a></li>
                   <li role="presentation"><a href="/media">MEDIA</a></li>
                   <li role="presentation"><a href="/resources">RESOURCES</a></li>
