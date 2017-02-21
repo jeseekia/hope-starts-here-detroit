@@ -28,10 +28,11 @@
 
         <div class="container">
           <main>
+            <img src="/images/hsh_cslewis_quote.jpg" alt="">
             <div id="follow-flag">
                 <a href="https://www.facebook.com/HopeStartsHereDetroit/?fref=ts" target="_blank"><img src="images/fb_side_of_page.jpg"/></a>
             </div>
-<!-- 
+<!--
               <a class="logo-a" href="/">
                 <img class="logo" src="/images/hsh-logo.png" alt="Hope Starts Here Detroit logo" />
               </a> -->
