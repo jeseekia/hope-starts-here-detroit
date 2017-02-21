@@ -36,15 +36,19 @@
               <a class="logo-a" href="/">
                 <img class="logo" src="/images/hsh-logo.png" alt="Hope Starts Here Detroit logo" />
               </a> -->
-              <nav>
-                <ul class="nav nav-pills nav-justified">
-                  <li role="presentation"><a href="/home">HOME</a></li>
-                  <li role="presentation"><a href="/about">ABOUT</a></li>
-                  <li role="presentation"><a href="/media">MEDIA</a></li>
-                  <li role="presentation"><a href="/resources">RESOURCES</a></li>
-                  <li role="presentation"><a href="/connect">CONNECT</a></li>
-                </ul>
-              </nav>
+              <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                  <nav>
+                    <ul class="nav nav-pills nav-justified">
+                      <li role="presentation"><a href="/home">HOME</a></li>
+                      <li role="presentation"><a href="/about">ABOUT</a></li>
+                      <li role="presentation"><a href="/media">MEDIA</a></li>
+                      <li role="presentation"><a href="/resources">RESOURCES</a></li>
+                      <li role="presentation"><a href="/connect">CONNECT</a></li>
+                    </ul>
+                  </nav>
+                </div>
+              </div>
 
               @yield('content')
           </main>
