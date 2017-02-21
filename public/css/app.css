@@ -99,22 +99,30 @@ img {
   overflow: hidden;
 }
 
-#follow-flag {
-    /* Rectangle 3: */
+main {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  margin-left: 0 auto;
+}
+
+
+#follow-flag a{
+    /* Rectangle 3:
     background: #8DC62C;
     border: 1px solid #8DC62C;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
-    /* FB-f-Logo__white_29: */
-    /* f o l l o w u s: */
+    FB-f-Logo__white_29:
+    f o l l o w u s:
     font-family: Helvetica-Bold;
     font-size: 14px;
     color: #000000;
-    line-height: 13px;
-    position: fixed;
-    top: 0px;
-    left: 5%;
-    width: 43px;
-    height: 190px;
+    line-height: 13px;*/
+    position: absolute;
+    top: 10%;
+    right: 0;
+    /*width: 43px;
+    height: 190px;*/
     z-index: 1000;
 }
 #follow-flag .follow-flag-text {
@@ -124,9 +132,10 @@ img {
     /*font-style: italic;*/
 }
 #follow-flag img {
-    position: absolute;
+    /*position: absolute;
     left: 7px;
-    bottom: 7px;
+    bottom: 7px;*/
+    height: 75px;
 }
 
 .panel-body {

@@ -23,37 +23,29 @@
     <body>
 
         <header class="jumbotron">
-          <div id="follow-flag">
-                        <p class="follow-flag-text">
-                            f<br/>
-                            o<br/>
-                            l<br/>
-                            l<br/>
-                            o<br/>
-                            w<br/>
-                            <br/>
-                            u<br/>
-                            s<br/>
-                            !
-                        </p>
-                        <a href="https://www.facebook.com/HopeStartsHereDetroit/?fref=ts" target="_blank"><img src="http://static.tumblr.com/jy33kqh/Omqogezyr/fb-f-logo__white_29.png"/></a>
-                    </div>
+
         </header>
 
         <div class="container">
-          <a class="logo-a" href="/">
-            <img class="logo" src="/images/hsh-logo.png" alt="Hope Starts Here Detroit logo" />
-          </a>
-          <nav>
-            <ul class="nav nav-pills nav-justified">
-              <li role="presentation"><a href="/about">ABOUT</a></li>
-              <li role="presentation"><a href="/media">MEDIA</a></li>
-              <li role="presentation"><a href="/resources">RESOURCES</a></li>
-              <li role="presentation"><a href="/connect">CONNECT</a></li>
-            </ul>
-          </nav>
+          <main>
+            <div id="follow-flag">
+                <a href="https://www.facebook.com/HopeStartsHereDetroit/?fref=ts" target="_blank"><img src="images/fb_side_of_page.jpg"/></a>
+            </div>
 
-          @yield('content')
+              <a class="logo-a" href="/">
+                <img class="logo" src="/images/hsh-logo.png" alt="Hope Starts Here Detroit logo" />
+              </a>
+              <nav>
+                <ul class="nav nav-pills nav-justified">
+                  <li role="presentation"><a href="/about">ABOUT</a></li>
+                  <li role="presentation"><a href="/media">MEDIA</a></li>
+                  <li role="presentation"><a href="/resources">RESOURCES</a></li>
+                  <li role="presentation"><a href="/connect">CONNECT</a></li>
+                </ul>
+              </nav>
+
+              @yield('content')
+          </main>
         </div>
 
         <footer>
