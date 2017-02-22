@@ -56,7 +56,7 @@
 
         <footer>
           <p>
-            Copyright © 2016 Hope Starts Here: Detroit's Early Childhood Partnership
+            Copyright © 2017 Hope Starts Here: Detroit's Early Childhood Partnership
           </p>
         </footer>
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
