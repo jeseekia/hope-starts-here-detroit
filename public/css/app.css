@@ -230,6 +230,12 @@ article.post-content {
 
 }
 
+@media (max-width: 991px){
+  .post-content img {
+    margin-top: 75%;
+  }
+}
+
 @media (max-width: 800px) {
 
   article.post-content {
@@ -262,6 +268,9 @@ article.post-content {
   .page-content-wrapper {
       margin-top: 40%;
 
+  }
+  .post-content img {
+    margin-top: 25%;
   }
 
 }
