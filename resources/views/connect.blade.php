@@ -10,6 +10,7 @@
       </p>
       <p>Phone: 313.242.7385</p>
       <p>Facebook: <a href="http://www.facebook.com/HopeStartsHereDetroit" target="_blank">Follow us</a></p>
+      <hr>
       <!-- Begin MailChimp Signup Form -->
       <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
       <style type="text/css">
