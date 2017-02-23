@@ -21,11 +21,11 @@
 
     </head>
     <body>
-
+        <a href="/home">
         <header class="jumbotron">
 
         </header>
-
+        </a>
         <div class="container">
           <main>
             <img src="/images/hsh_cslewis_quote.jpg" alt="">
@@ -40,7 +40,6 @@
                 <div class="col-md-10 col-md-offset-1">
                   <nav>
                     <ul class="nav nav-pills nav-justified">
-                      <li role="presentation"><a href="/home">HOME</a></li>
                       <li role="presentation"><a href="/about">ABOUT</a></li>
                       <li role="presentation"><a href="/resources">RESOURCES</a></li>
                       <li role="presentation"><a href="/media">MEDIA</a></li>
