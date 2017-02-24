@@ -2,7 +2,7 @@
 
 @section('content')
 <div id="home-page">
-
+<!--  -->
 
 <div id="the-latest" class="row">
   <div class="col-md-10 col-md-offset-1">
