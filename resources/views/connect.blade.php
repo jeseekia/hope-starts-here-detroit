@@ -10,7 +10,7 @@
     <hr>
   </div>
 </div>
-<div class="panel panel-default">
+<div class="panel panel-default general-page">
   <div class="panel-body">
     <!-- <h2 class="title">Connect With Us</h2> -->
 

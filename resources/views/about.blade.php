@@ -11,7 +11,7 @@
   </div>
 </div>
 <div class="center-text">
-  <div class="panel panel-default">
+  <div class="panel panel-default general-page">
     <div class="panel-body">
       <!-- <h2 class="title">About Hope Starts Here</h2> -->
       <div class="page-content-wrapper">
