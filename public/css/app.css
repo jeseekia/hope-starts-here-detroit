@@ -65,8 +65,8 @@ nav {
   margin: 5px;
   font-family: "Museo Slab";
   text-transform: capitalize;
-  color: black;
-  font-size: 140%;
+  color: #333333;
+  /*font-size: 140%;*/
 }
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
@@ -179,6 +179,10 @@ main {
     width: 75%;
     text-transform: uppercase;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+.center-text p{
+  text-align: center;
 }
 article.post-content {
   margin-top: 20%;
