@@ -51,6 +51,6 @@
       </article>
     </div>
   </div>
-  </div>
   @endforeach
+  </div>
 @stop
