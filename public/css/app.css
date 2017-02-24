@@ -31,16 +31,27 @@
         /*height: 100%;*/
         background-size: cover;
         overflow: hidden;
-        background: #000 url("../images/hsh_website_image-headerHome.jpg") center center;
+        background: #000 url("../images/header.jpg") center center;
 
     }
 
-    #home-page .jumbotron {
-      background: #000 url("../images/hsh_website_image-headerHome.jpg") center center;
+    .jumbotron.home-header {
+      background: #000 url("../images/header.jpg") center center;
     }
 
-    #about-page .jumbotron {
-      background: #000 url("../images/hsh_website_image-header1.jpg") center center;
+    .jumbotron.about-header {
+      background: #000 url("../images/header1.jpg") center center;
+    }
+
+    .jumbotron.resources-header {
+      background: #000 url("../images/header3.jpg") center center;
+    }
+    .jumbotron.media-header {
+      background: #000 url("../images/header2.jpg") center center;
+    }
+
+    .jumbotron.connect-header {
+      background: #000 url("../images/header4.jpg") center center;
     }
 
     header {
