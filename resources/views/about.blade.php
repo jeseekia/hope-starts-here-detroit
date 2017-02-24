@@ -1,10 +1,19 @@
 @extends('layout')
 
 @section('content')
+<div id="the-latest" class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <hr>
+      <h1>
+        About Hope Starts Here
+      </h1>
+    <hr>
+  </div>
+</div>
 <div class="center-text">
   <div class="panel panel-default">
     <div class="panel-body">
-      <h2 class="title">About Hope Starts Here</h2>
+      <!-- <h2 class="title">About Hope Starts Here</h2> -->
       <div class="page-content-wrapper">
         <p>
           <strong>

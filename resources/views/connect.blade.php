@@ -1,9 +1,18 @@
 @extends('layout')
 
 @section('content')
+<div id="the-latest" class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <hr>
+      <h1>
+        Connect With Us
+      </h1>
+    <hr>
+  </div>
+</div>
 <div class="panel panel-default">
   <div class="panel-body">
-    <h2 class="title">Connect With Us</h2>
+    <!-- <h2 class="title">Connect With Us</h2> -->
 
     <div class="page-content-wrapper">
       <iframe height="671" allowTransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none"  src="https://fullydevelopedtech.wufoo.com/embed/mjnnmri1eiu5rm/"></iframe>

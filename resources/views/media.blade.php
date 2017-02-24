@@ -1,9 +1,18 @@
 @extends('layout')
 
 @section('content')
+<div id="the-latest" class="row">
+  <div class="col-md-10 col-md-offset-1">
+    <hr>
+      <h1>
+        Media
+      </h1>
+    <hr>
+  </div>
+</div>
 <div class="panel panel-default">
   <div class="panel-body">
-    <h2 class="title">MEDIA</h2>
+    <!-- <h2 class="title">MEDIA</h2> -->
     <div class="page-content-wrapper">
       <p>
         <a target="_blank" href="https://drive.google.com/file/d/0B0U1ZK20T0G-RUdfajFkeTE0NnM/view?pli=1">Hope Starts Here Announcement Release </a>
