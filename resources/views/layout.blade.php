@@ -22,8 +22,21 @@
         </head>
         <body>
             <a href="/home">
-            <header class="jumbotron">
-
+            <header class="jumbotron
+              @if(Request::is('home'))
+                home-header
+              @elseif(Request::is('about'))
+                about-header
+              @elseif(Request::is('media'))
+                media-header
+              @elseif(Request::is('connect'))
+                connect-header
+              @elseif(Request::is('resources'))
+                resources-header
+              @else
+                home-header
+              @endif
+              ">
             </header>
             </a>
             <div class="container">
